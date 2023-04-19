@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+	
+	<h2>SIGN LANGUAGE TO SPEECH CONVERTER</h2>
+ 	<hr>
+ 	<h2>CONTACT US</h2>
+	 <form>
+        <h4 class="td">Please fill the form <br>We will get back to you<form action="" class=""></form></h4>
+        <p class="td">First name</p>
+        <input type="text" name="firstname" id="firstname" required>
+        <p class="td">Last name</p>
+        <input type="text" name="lastname" id="lastname" required>
+        <p class="td">Email address</p>
+        <input type="email" name="emailadd" id="emailadd" required>
+        <p class="td">Contact number</p>
+        <input type="number" name="contact" id="contact" required>
+        <p class="td">Your message</p>
+        <input type="text" name="message" id="message" required> <br> <br>
+        <input type="submit" value="Submit" style="padding: 16px; ">
+    </form>
+
+{% endblock %}
